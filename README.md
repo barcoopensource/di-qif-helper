@@ -10,4 +10,20 @@ A release of this repositroy contains a build of:
 
 ## usage
 
-gh release download --repo "barcoopensource/di-qif-helper" *version* --pattern "static-qt-6.6.0.zip" --output "static-qt-6.6.0.zip"
+Download the static qt 6.6.0 build
+
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "static-qt-6.6.0.zip" --output "static-qt-6.6.0.zip"`
+
+Download the static bzip2 build
+
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "bzip2.zip" --output "bzip2.zip"`
+
+Download the static zlib build
+
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "zlib.zip" --output "zlib.zip"`
+
+Download the static xy build
+
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "xy.zip" --output "xy.zip"`
+
+{version} represents the release version of this repository you want to download from.
