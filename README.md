@@ -12,7 +12,7 @@ A release of this repositroy contains a build of:
 
 Download the static qt 6.6.0 build
 
-`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "static-qt-6.6.0.zip" --output "static-qt-6.6.0.zip"`
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "static-qt-660.zip" --output "static-qt-660.zip"`
 
 Download the static bzip2 build
 
