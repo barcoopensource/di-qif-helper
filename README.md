@@ -7,6 +7,7 @@ A release of this repositroy contains a build of:
 - bzip2 (https://github.com/libarchive/bzip2)
 - zlib (https://github.com/madler/zlib)
 - xz (https://github.com/tukaani-project/xz)
+- openssl (https://github.com/openssl/openssl)
 
 ## usage
 
@@ -25,5 +26,9 @@ Download the static zlib build
 Download the static xy build
 
 `gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "xy.zip" --output "xy.zip"`
+
+Download the static openssl build
+
+`gh release download --repo "barcoopensource/di-qif-helper" {version} --pattern "openssl.zip" --output "openssl.zip"`
 
 {version} represents the release version of this repository you want to download from.
